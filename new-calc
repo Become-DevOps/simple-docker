@@ -1,0 +1,6 @@
+# Another simple calculator program
+def square(a):
+    return a * a
+if __name__ == "__main__":
+    num = 4
+    print(f"Square of {num} is {square(num)}")
